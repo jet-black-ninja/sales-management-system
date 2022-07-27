@@ -1,0 +1,16 @@
+#varaibles
+CC=g++
+G=-g
+Executable=main
+#main program
+all:list.h node.h 
+	#(CC) $(G) node.h list.h main.cpp -o$(Executable)
+
+#libraries
+list.h:list.h 
+	#(CC) $(G) -c list.h
+node.h:node.h 
+	#(CC) $(G) -c node.h 
+# clear the object and executable files
+clean:
+	rm -rf *.o $(Executable)

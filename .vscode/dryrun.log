@@ -1,0 +1,10 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory 'c:/Users/pramo/OneDrive/Desktop/c++/projets/sales-management-system'
+#(CC)  -c list.h
+#(CC)  -c node.h 
+#(CC)  node.h list.h main_file.cpp -omain
+make: Leaving directory 'c:/Users/pramo/OneDrive/Desktop/c++/projets/sales-management-system'
+ 
+make: Circular list.h <- list.h dependency dropped.
+make: Circular node.h <- node.h dependency dropped.
+

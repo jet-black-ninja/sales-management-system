@@ -1,0 +1,21 @@
+{
+    "cSpell.words": [
+        "apptmt",
+        "getcontact",
+        "getid",
+        "inpass",
+        "inuser",
+        "newpass",
+        "passfile",
+        "passw",
+        "roomtype",
+        "setcontact",
+        "setid",
+        "temppass",
+        "userfile"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "iosfwd": "cpp"
+    }
+}
